@@ -1,0 +1,40 @@
+name: buildhive
+description: BUILDHIVE Construction Hardware customer app
+publish_to: 'none'
+version: 1.0.5+6
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+  flutter_svg: ^2.0.10
+  http: ^1.6.0
+  app_links: ^7.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/buildhive_icon.png
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: assets/buildhive_icon.png
+  remove_alpha_ios: true
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image.png
+    - assets/image copy.png
+    - assets/image copy 2.png
+    - assets/image copy 3.png
+    - assets/image copy 4.png
+    - assets/image copy 5.png
+    - assets/image copy 6.png
+    - assets/buildhive_icon.png
+    - assets/buildhive_logo.png
